@@ -17,6 +17,7 @@ $(document).ready(() =>
         backSpeed: 100,
         backDelay: 500,
         cursorChar: "&#9611;",
+        smartBackspace: true,
         onComplete: typedFade(self, "#typed-container", "#terminal")
     }
 
@@ -25,7 +26,7 @@ $(document).ready(() =>
     function datetime()
     {
         var d = new Date();
-        var days = ["Sun ", "Mon" , "Tue ", "Wed ", "Thur ", "Fri ", "Sat "];
+        var days = ["Sun ", "Mon " , "Tue ", "Wed ", "Thur ", "Fri ", "Sat "];
         var months = ["Jan ", "Feb ", "Mar ", "Apr ", "May ", "Jun ", "Jul ", "Aug ", "Sep ", "Oct ", "Nov ", "Dec "];
         var s = "";
 
