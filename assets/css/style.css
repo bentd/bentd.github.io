@@ -85,6 +85,8 @@ footer {
   * {
     font-size: 0.75rem;
   }
+  .main-col {
+  }
 }
 
 @media screen and (max-height: 400px) and (min-width: 500px) {

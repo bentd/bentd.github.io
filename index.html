@@ -52,52 +52,41 @@
       </div>
     </div>
   </nav>
-  <main class="container-fluid" id="main">
+  <main class="container-fluid" id="terminal">
     <div class="row">
-      <div class="main-col col-lg-5 border-style py-3" id="main-col-mugshot">
-        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
-        </div>
-        <div class="d-flex flex-column justify-content-end h-25 w-100">
-          <h5 class="text-center text-truncate fg-white h-25 w-100">00_MUGSHOT</h5>
+      <div class="main-col col-lg-12 border-style py-3" id="terminal-container">
+        <div class="h-75 w-75" id="terminal-div">
+          <div id="terminal-bar">
+            <div class="faux-button" id="close"></div>
+            <div class="faux-button" id="minimize"></div>
+            <div class="faux-button" id="expand"></div>
+            <div class="text-truncate" id="title">bentd &#8212;&#8212; -bash &#8212;&#8212; 80x24</div>
+          </div>
+          <div class="w-100 px-1" id="terminal-body">
+            <span>&nbsp;Last login: </span><span id="datetime"></span><span> on ttys000</span>
+            <br>
+            <p>&nbsp;mbp:~ bentd$&nbsp;<span class="typed"></span></p>
+          </div>
         </div>
       </div>
-      <div class="main-col col-lg-4 border-style py-3">
+    </div>
+  </main>
+  <section class="container-fluid">
+    <div class="row">
+      <div class="section-col col-lg-4 border-style bg-tan fg-white py-3">
         <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
           <h1 class="text-center w-100 mb-3 pt-5">Hi, I'm Dylan</h1>
           <h4 class="text-center w-100 pt-2">software developer and future engineer</h2>
         </div>
         <div class="d-flex flex-column justify-content-end h-25 w-100">
-          <h5 class="text-center text-truncate h-25 w-100">01_ABOUT_ME</h5>
+          <h5 class="text-center text-truncate h-25 w-100">00_ABOUT_ME</h5>
         </div>
       </div>
-      <div class="main-col col-lg-3 border-style fg-white py-3" id="main-col-wheels">
+      <div class="section-col col-lg-3 border-style py-3" id="main-col-mugshot">
         <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
         </div>
         <div class="d-flex flex-column justify-content-end h-25 w-100">
-          <h5 class="text-center text-truncate white h-25 w-100">02_WHEELS</h5>
-        </div>
-      </div>
-    </div>
-  </main>
-  <section class="container-fluid" id="about">
-    <div class="row">
-      <div class="section-col col-lg-3 border-style bg-tan fg-white py-3">
-        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
-          <h3 class="text-center mb-4">My professional DMs are always open!</h3>
-          <h4 class="text-center mt-1">bentd@outlook.com</h4>
-        </div>
-        <div class="d-flex flex-column justify-content-end h-25 w-100">
-          <h5 class="text-center text-truncate h-25 w-100">04_CONTACT</h5>
-        </div>
-      </div>
-      <div class="section-col col-lg-4 border-style bg-white fg-black py-3">
-        <div class="d-flex flex-column justify-content-center text-wrap h-75 w-100 px-2">
-          <h2 class="text-center mt-5 mb-3">Florida Agricultural and Mechanical University 🐍</h1>
-          <h3 class="text-center mb-3">B.S. Electrical Engineering</h2>
-          <h4 class="text-center mb-3">2022</h3>
-        </div>
-        <div class="d-flex flex-column justify-content-end h-25 w-100">
-          <h5 class="text-center text-truncate h-25 w-100">05_EDUCATION</h5>
+          <h5 class="text-center text-truncate fg-white h-25 w-100">01_ME</h5>
         </div>
       </div>
       <div class="section-col col-lg-5 border-style bg-gray fg-white py-3">
@@ -138,26 +127,37 @@
           </div>
         </div>
         <div class="d-flex flex-column justify-content-end h-25 w-100">
-          <h5 class="text-center text-truncate h-25 w-100">06_SKILLS</h5>
+          <h5 class="text-center text-truncate h-25 w-100">02_SKILLS</h5>
         </div>
       </div>
     </div>
   </section>
-  <section class="container-fluid" id="terminal">
+  <section class="container-fluid" id="about">
     <div class="row">
-      <div class="section-col col-lg-12 border-style py-3" id="terminal-container">
-        <div class="h-75 w-75" id="terminal-div">
-          <div id="terminal-bar">
-            <div class="faux-button" id="close"></div>
-            <div class="faux-button" id="minimize"></div>
-            <div class="faux-button" id="expand"></div>
-            <div class="text-truncate" id="title">bentd &#8212;&#8212; -bash &#8212;&#8212; 80x24</div>
-          </div>
-          <div class="w-100 px-1" id="terminal-body">
-            <span>&nbsp;Last login: </span><span id="datetime"></span><span> on ttys000</span>
-            <br>
-            <p>&nbsp;mbp:~ bentd$&nbsp;<span class="typed"></span></p>
-          </div>
+      <div class="section-col col-lg-5 border-style bg-white fg-black py-3">
+        <div class="d-flex flex-column justify-content-center text-wrap h-75 w-100 px-2">
+          <h2 class="text-center mt-5 mb-3">Florida Agricultural and Mechanical University 🐍</h1>
+          <h3 class="text-center mb-3">B.S. Electrical Engineering</h2>
+          <h4 class="text-center mb-3">2022</h3>
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate h-25 w-100">03_EDUCATION</h5>
+        </div>
+      </div>
+      <div class="section-col col-lg-4 border-style fg-white py-3" id="main-col-wheels">
+        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate white h-25 w-100">04_WHEELS</h5>
+        </div>
+      </div>
+      <div class="section-col col-lg-3 border-style bg-tan fg-white py-3">
+        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
+          <h3 class="text-center mb-4">My professional DMs are always open!</h3>
+          <h4 class="text-center mt-1">bentd@outlook.com</h4>
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate h-25 w-100">05_CONTACT</h5>
         </div>
       </div>
     </div>
