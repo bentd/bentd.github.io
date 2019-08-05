@@ -1,51 +1,188 @@
 <!doctype html>
-
+<html lang="en">
 <html>
-
 <head>
-
-    <title>Dylan Bent</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/img/mars.png" type="image/png" sizes="2000x2000">
-    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="vendors/jquery/jquery.min.js" defer></script>
-    <script src="vendors/popper/popper.min.js" defer></script>
-    <script src="vendors/bootstrap/js/bootstrap.min.js" defer></script>
-    <script src="vendors/typed/typed.min.js" defer></script>
-    <script src="assets/js/script.js" defer></script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Hi, I'm Dylan! Software developer and future engineer.">
+  <meta name="author" content="Dylan Bent">
+  <meta property="og:title" content="Dylan Bent">
+  <meta property="og:image" content="/assets/img/shot.jpg">
+  <meta property="og:site_name" content="https://dylanbent.com/">
+  <meta property="og:description" content="Hi, I'm Dylan! Software developer and future engineer.">
+  <title>Dylan Bent</title>
+  <link rel="canonical" href="https://dylanbent.com.com/">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/terminal.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
+  <script src="https://kit.fontawesome.com/b26e348263.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9" defer></script>
+  <script src="assets/js/terminal.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
 </head>
-
 <body>
-
-    <div id="terminal">
-
-        <div id="terminal-bar">
-        <div id="close" class="faux-button"></div>
-        <div id="minimize" class="faux-button"></div>
-        <div id="expand" class="faux-button"></div>
-        <div id="title">bentd &#8212;&#8212; -bash &#8212;&#8212; 80x24</div>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light p-0">
+    <div class="container-fluid p-0">
+      <div class="row align-items-center w-100 mx-auto">
+        <div class="col-12 col-sm-4 border-style bg-tan pl-3 py-3">
+          <a class="navbar-brand float-none pl-3" href="#">Dylan Bent</a>
+          <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-
-        <div id="terminal-body">
-
+        <div class="col-12 col-sm-8 border-style mx-auto" id="nav-col-2">
+          <div class="collapse navbar-collapse py-3 pr-3" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="container-fluid" id="main">
+    <div class="row">
+      <div class="main-col col-lg-5 border-style py-3" id="main-col-mugshot">
+        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate fg-white h-25 w-100">00_MUGSHOT</h5>
+        </div>
+      </div>
+      <div class="main-col col-lg-4 border-style py-3">
+        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
+          <h1 class="text-center w-100 mb-3 pt-5">Hi, I'm Dylan</h1>
+          <h4 class="text-center w-100 pt-2">software developer and future engineer</h2>
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate h-25 w-100">01_ABOUT_ME</h5>
+        </div>
+      </div>
+      <div class="main-col col-lg-3 border-style fg-white py-3" id="main-col-wheels">
+        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate white h-25 w-100">02_WHEELS</h5>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="container-fluid" id="about">
+    <div class="row">
+      <div class="section-col col-lg-3 border-style bg-tan fg-white py-3">
+        <div class="d-flex flex-column justify-content-center h-75 w-100 px-2">
+          <h3 class="text-center mb-4">My professional DMs are always open!</h3>
+          <h4 class="text-center mt-1">bentd@outlook.com</h4>
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate h-25 w-100">04_CONTACT</h5>
+        </div>
+      </div>
+      <div class="section-col col-lg-4 border-style bg-white fg-black py-3">
+        <div class="d-flex flex-column justify-content-center text-wrap h-75 w-100 px-2">
+          <h2 class="text-center mt-5 mb-3">Florida Agricultural and Mechanical University 🐍</h1>
+          <h3 class="text-center mb-3">B.S. Electrical Engineering</h2>
+          <h4 class="text-center mb-3">2022</h3>
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate h-25 w-100">05_EDUCATION</h5>
+        </div>
+      </div>
+      <div class="section-col col-lg-5 border-style bg-gray fg-white py-3">
+        <div class="d-flex flex-column justify-content-center align-items-center h-75 w-100 px-2">
+          <div class="mt-5">
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>React Native</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>React</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>Bootstrap</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>Flask (Backend)</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>Google Cloud</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>Heroku</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>Firebase</span>
+            </h6>
+            <h6 class="mb-3">
+              <i class="fas fa-check-circle fg-white"></i>
+              <span>Solidity (Blockchain)</span>
+            </h6>
+          </div>
+        </div>
+        <div class="d-flex flex-column justify-content-end h-25 w-100">
+          <h5 class="text-center text-truncate h-25 w-100">06_SKILLS</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="terminal">
+    <div class="row">
+      <div class="section-col col-lg-12 border-style py-3" id="terminal-container">
+        <div class="h-75 w-75" id="terminal-div">
+          <div id="terminal-bar">
+            <div class="faux-button" id="close"></div>
+            <div class="faux-button" id="minimize"></div>
+            <div class="faux-button" id="expand"></div>
+            <div class="text-truncate" id="title">bentd &#8212;&#8212; -bash &#8212;&#8212; 80x24</div>
+          </div>
+          <div class="w-100 px-1" id="terminal-body">
             <span>&nbsp;Last login: </span><span id="datetime"></span><span> on ttys000</span>
             <br>
-            <div id="typed-strings">
-            <p>&nbsp;mbp:~ bentd$&nbsp;</p>
-            <p>&nbsp;mbp:~ bentd$&nbsp;student</p>
-            <p>&nbsp;mbp:~ bentd$&nbsp;coder</p>
-            <p>&nbsp;mbp:~ bentd$&nbsp;maker</p>
-            <p>&nbsp;mbp:~ bentd$&nbsp;dreamer</p>
-            <p>&nbsp;mbp:~ bentd$&nbsp;what are you?</p>
-            </div>
-            <span class="typed"></span>
-
+            <p>&nbsp;mbp:~ bentd$&nbsp;<span class="typed"></span></p>
+          </div>
         </div>
-
+      </div>
     </div>
-
+  </section>
+  <section class="container-fluid" id="contact">
+    <div class="row">
+      <div class="contact-col col-lg-4 border-style py-3">
+        <div class="d-flex flex-column justify-content-center h-100 w-100">
+          <a href="https://www.linkedin.com/in/dylan-bent-40b396b5/" class="text-center text-truncate fg-black w-100">LINKEDIN</a>
+        </div>
+      </div>
+      <div class="contact-col col-lg-4 border-style py-3">
+        <div class="d-flex flex-column justify-content-center h-100 w-100">
+          <a href="https://twitter.com/dylnbnt" class="text-center text-truncate fg-black w-100">TWITTER</a>
+        </div>
+      </div>
+      <div class="contact-col col-lg-4 border-style fg-white py-3">
+        <div class="d-flex flex-column justify-content-center h-100 w-100">
+          <a href="https://github.com/bentd" class="text-center text-truncate fg-black w-100">GITHUB</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container-fluid border-style py-4">
+    <p class="align-middle text-center m-0">©️ 2019 🔨 with 🖤 by 👨🏾‍💻 Dylan Bent</p>
+  </footer>
 </body>
-
 </html>

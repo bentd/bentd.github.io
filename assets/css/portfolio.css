@@ -1,0 +1,33 @@
+.section-col {
+  height: 100vh;
+}
+
+.portfolio-image {
+  height: 100%;
+}
+
+.barricade {
+  background: repeating-linear-gradient(
+  45deg,
+  gray,
+  gray 10px,
+  darkgray 10px,
+  darkgray 20px
+);
+}
+
+#project-1-media-1 {
+
+}
+
+@media screen and (max-height: 400px) and (min-width: 500px) {
+  .section-col {
+    height: 100vmax;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .barricade {
+    height: 10vh !important;
+  }
+}
