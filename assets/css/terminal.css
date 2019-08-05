@@ -33,6 +33,7 @@
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+    width: 90%;
 }
 
 #terminal-bar {
@@ -77,8 +78,8 @@
     transform: translate(-50%, -50%);
 }
 
-#terminal-body {
-  font-size: 0.8rem;
+#terminal-body * {
+  font-size: 1.5rem;
 }
 
 #typed-strings {
