@@ -2,13 +2,15 @@ $(document).ready(() => {
 
     var options = {
         strings: [
-          "student",
-          "coder",
-          "maker",
-          "dreamer",
-          "friend",
-          "entrepreneur",
-          "???"
+            "graduate!",
+            "engineer",
+            "programmer",
+            "maker",
+            "team player",
+            "occasional troublemaker",
+            "tinkerer",
+            "entrepreneur",
+            "???"
         ],
         typeSpeed: 100,
         backSpeed: 100,
@@ -24,7 +26,7 @@ $(document).ready(() => {
 
     function datetime() {
         var d = new Date();
-        var days = ["Sun ", "Mon " , "Tue ", "Wed ", "Thur ", "Fri ", "Sat "];
+        var days = ["Sun ", "Mon ", "Tue ", "Wed ", "Thur ", "Fri ", "Sat "];
         var months = ["Jan ", "Feb ", "Mar ", "Apr ", "May ", "Jun ", "Jul ", "Aug ", "Sep ", "Oct ", "Nov ", "Dec "];
         var s = "";
 
